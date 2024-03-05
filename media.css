@@ -1,0 +1,162 @@
+@media screen and (max-width:1614px) {
+    .right .cardcont .cards h2{
+        font-size: 14px;
+        white-space: nowrap;
+        overflow:hidden;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 14px;
+        overflow: hidden;
+        color: rgb(156, 155, 155);
+    }
+}
+
+@media screen and (max-width:1395px) {
+    .right .cardcont{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .right .cardcont .cards h2{
+        font-size: 16px;
+        white-space: nowrap;
+        overflow:hidden;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 16px;
+        overflow: hidden;
+        color: rgb(156, 155, 155);
+    }
+}
+@media screen and (max-width:1282px) {
+    .right .cardcont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 97%;
+        margin: auto;
+        gap: 15px;
+    }
+    .right .cardcont .cards h2{
+        font-size: 16px;
+        white-space: nowrap;
+        overflow:hidden;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 16px;
+        overflow: hidden;
+        color: rgb(156, 155, 155);
+    }
+}
+@media screen and (max-width:1070px) {
+    .right .cardcont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 97%;
+        margin: auto;
+        gap: 15px;
+    }
+    .right .cardcont .cards h2{
+        font-size: 14px;
+        white-space: nowrap;
+        overflow:hidden;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 14px;
+        color: rgb(156, 155, 155);
+    }
+}
+@media screen and (max-width:991px) {
+    .right .cardcont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 97%;
+        margin: auto;
+        gap: 15px;
+    }
+    .right .cardcont .cards h2{
+        font-size: 14px;
+        white-space: nowrap;
+        overflow:hidden;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 14px;
+        color: rgb(156, 155, 155);
+    }
+}
+@media screen and (max-width:787px) {
+    .right .cardcont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 97%;
+        margin: auto;
+        gap: 15px;
+    }
+    .right .cardcont .cards h2{
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 12px;
+        color: rgb(156, 155, 155);
+    }
+}
+@media screen and (max-width:752px) {
+    .right .cardcont{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 97%;
+        margin: auto;
+        gap: 15px;
+    }
+    .right .cardcont .cards h2{
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 5px;
+    }
+    .right .cardcont .cards p{
+        font-size: 12px;
+        color: rgb(156, 155, 155);
+    }
+    .basic{
+        width: 100vw;
+    }
+    .n{
+        width: 60vw;
+    }
+    .foot{
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        margin-top: 12px;
+        text-overflow: hidden;
+    }
+    .foot button{
+        opacity: 0;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .left{
+        margin-right: 10px;
+    }
+    .right{
+        margin-left: 10px;
+    }
+    .playbar{
+        height: 55px;
+    }
+    .right .spotify-playlists .playbar .songinfo{
+        width: 95%;
+    }
+}

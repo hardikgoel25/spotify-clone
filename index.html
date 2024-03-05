@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div id="Homebox" class="basic">
+                <div class="logo"> <img src="img/Spotify_Logo_CMYK_White.png" alt=""></div>
+                <div class="home"><svg data-encore-id="icon" role="img" fill="white" aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 bneLcE home-active-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z">
+                        </path>
+                    </svg>Home</div>
+                <div class="search"><svg width="22" height="24" fill="white" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z">
+                        </path>
+                    </svg>Search</div>
+            </div>
+            <div id="lib" class="basic">
+                <div class="heading">
+                    <a href="">
+                        <div class="header">
+                            <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                                class="Svg-sc-ytk21e-0 bneLcE">
+                                <path
+                                    d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                                </path>
+                            </svg>
+                            Your Library
+                        </div>
+                    </a>
+                    <a href=""><svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16"
+                            class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+                            </path>
+                        </svg></a>
+                </div>
+                <div class="slist">
+
+                    <ul>
+
+                    </ul>
+
+                </div>
+                <footer>Cookies
+                    <button><svg data-encore-id="icon" fill="white" width="22" role="img" aria-hidden="true"
+                            viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                            <path
+                                d="M8.152 16H8a8 8 0 1 1 .152 0zm-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296zM4.877 7.25c.062-1.771.34-3.386.773-4.624.099-.284.208-.554.329-.806a6.507 6.507 0 0 0-4.436 5.43h3.334zm-3.334 1.5a6.507 6.507 0 0 0 4.436 5.43 7.974 7.974 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624H1.543zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129H6.378zm5.048 0c-.061 1.771-.339 3.386-.772 4.624-.082.235-.171.46-.268.674a6.506 6.506 0 0 0 4.071-5.298h-3.03zm3.031-1.5a6.507 6.507 0 0 0-4.071-5.298c.097.214.186.44.268.674.433 1.238.711 2.853.772 4.624h3.031z">
+                            </path>
+                        </svg>English</button>
+                </footer>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="arrow">
+                    <button>
+                        <svg data-encore-id="icon" fill="white" width="16" role="img" aria-hidden="true"
+                            class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16">
+                            <path
+                                d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z">
+                            </path>
+                        </svg></button>
+                    <button>
+                        <svg data-encore-id="icon" role="img" width="16" fill="white" aria-hidden="true"
+                            class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16">
+                            <path
+                                d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z">
+                            </path>
+                        </svg></button>
+                </div>
+                <div class="log">
+                    Sign up
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlists">
+                <div class="header">
+                    <h1>Spotify Playlists</h1>
+                    <span>Show all</span>
+                </div>
+                <div class="cardcont">
+                    <div data-folder="cs" class="cards">
+                        <div class="image">
+                            <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="play">
+                                    <path fill="none" d="M-838-2232H562v3600H-838z"></path>
+                                    <path d="M16 10v28l22-14z"></path>
+                                    <path fill="none" d="M0 0h48v48H0z"></path>
+                                </svg>
+                            </div>
+                            <img src="img/ab67706f0000000254473de875fea0fd19d39037.jpg" alt="">
+                        </div>
+                        <h2>lofi beats</h2>
+                        <p>chill beats, lofi vibes, new tracks every week... </p>
+                    </div>
+                    <div data-folder="ncs" class="cards">
+                        <div class="image">
+                            <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="play">
+                                    <path fill="none" d="M-838-2232H562v3600H-838z"></path>
+                                    <path d="M16 10v28l22-14z"></path>
+                                    <path fill="none" d="M0 0h48v48H0z"></path>
+                                </svg>
+                            </div>
+                            <img src="img/2.jpg" alt="">
+                        </div>
+                        <h2>Today's Top Hits</h2>
+                        <p>Dua Lipa is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image">
+                            <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="play">
+                                    <path fill="none" d="M-838-2232H562v3600H-838z"></path>
+                                    <path d="M16 10v28l22-14z"></path>
+                                    <path fill="none" d="M0 0h48v48H0z"></path>
+                                </svg>
+                            </div>
+                            <img src="img/3.jpg" alt="">
+                        </div>
+                        <h2>Chillout Lounge</h2>
+                        <p>Just lean back and enjoy relaxed beats.</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image">
+                            <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="play">
+                                    <path fill="none" d="M-838-2232H562v3600H-838z"></path>
+                                    <path d="M16 10v28l22-14z"></path>
+                                    <path fill="none" d="M0 0h48v48H0z"></path>
+                                </svg>
+                            </div>
+                            <img src="img/4.jpg" alt="">
+                        </div>
+                        <h2>All Out 2020s</h2>
+                        <p>The biggest songs of the 2020s.</p>
+                    </div>
+                    <div class="cards">
+                        <div class="image">
+                            <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="play">
+                                    <path fill="none" d="M-838-2232H562v3600H-838z"></path>
+                                    <path d="M16 10v28l22-14z"></path>
+                                    <path fill="none" d="M0 0h48v48H0z"></path>
+                                </svg>
+                            </div>
+                            <img src="img/5.jpg" alt="">
+                        </div>
+                        <h2>Jazz in the Background</h2>
+                        <p>Soft instrumental Jazz for all your activities.</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    
+                    <div class="songinfo"></div>
+                    <div class="playbuttons">
+                        <img id="prevsvg" src="img/prev.svg" alt="">
+                        <img id="playsvg" src="img/play.svg" alt="">
+                        <img id="nextsvg" src="img/next.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                    <div class="vol">
+                        <div class="volmix">
+                            <img src="img/volume.svg" alt="">
+                        </div>
+                        <div class="range">
+                            <input type="range" name="volume" id="vol">
+                        </div>
+                    </div>
+                    <div class="seekbar seek">
+                        <div class="circle">
+                        </div>
+                        <div class="fill seek"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="prev">
+            <h2>Preview of Spotify</h2>
+            <h2>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</h2>
+        </div>
+        <button>Sign up for free</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
